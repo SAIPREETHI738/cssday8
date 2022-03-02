@@ -1,0 +1,41 @@
+/* box shadow=h-offset, v-offset, blur, spread radius, color */
+.box{
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 7px blueviolet;
+    border: 2px solid blueviolet;
+    text-align: center;
+    text-shadow: 2px 2px 5px  blue;
+    transition: width 2s linear 2s;
+}
+.box:hover{
+    width: 400px;
+}
+.rotate{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    box-shadow: 7px 7px 10px red;
+    transition: transform 5s;
+}
+.rotate:hover{
+    transform: rotate(360deg);
+   
+}
+
+.trans{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    color: green;
+    border: 2px solid green;
+    box-shadow: 7px 7px 10px green;
+    transition: transform 5s;
+}
+.trans:hover{
+    transform: translate(500px);
+}
